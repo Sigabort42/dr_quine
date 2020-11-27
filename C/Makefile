@@ -30,7 +30,10 @@ clean:
 	@/bin/rm -rf $(OBJS)
 	@echo "\033[H\033[2J\033[32mall .o [\033[32;5mCleared\033[0m\033[32m]"
 
-fclean:	clean
+clean_sully:
+	@/bin/rm -rf $(SULLY)_*
+
+fclean:	clean clean_sully
 	@/bin/rm -rf $(COLLEEN)
 	@/bin/rm -rf $(GRACE)
 	@/bin/rm -rf $(SULLY)
