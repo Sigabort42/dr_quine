@@ -13,7 +13,7 @@ LINKER		=	ld
 LINKER_FLAGS	=	-macosx_version_min 10.8 -lSystem
 
 SRCS    	=       ./Colleen.s \
-#                	./Grace.s \
+			./Grace.s \
 #                	./Sully.s \
 
 
