@@ -14,7 +14,7 @@ LINKER_FLAGS	=	-macosx_version_min 10.8 -lSystem
 
 SRCS    	=       ./Colleen.s \
 			./Grace.s \
-#                	./Sully.s \
+			./Sully.s \
 
 
 OBJS    	=       $(SRCS:.s=.o)
